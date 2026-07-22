@@ -47,3 +47,17 @@ Govern Wisely.
 - AI Architecture
 - Templates
 - Design Authority
+
+## Example
+
+```mermaid
+graph TD
+
+A[Business]
+
+A --> B[Application]
+
+B --> C[Technology]
+
+C --> D[Cloud]
+```

@@ -1,46 +1,75 @@
 site_name: Enterprise Architecture Playbook
-site_description: Enterprise Architecture & Solution Architecture Knowledge Base
+site_description: Enterprise Architecture & Cloud Native Knowledge Base
 site_author: Xadim Ousalih
+site_url: https://xadimousalih.github.io/enterprise-architecture-playbook/
+
+repo_name: xadimousalih/enterprise-architecture-playbook
+repo_url: https://github.com/xadimousalih/enterprise-architecture-playbook
 
 theme:
   name: material
+
+  logo: assets/logo.png
+
+  favicon: assets/favicon.png
+
   language: en
 
+  palette:
+
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
   features:
+
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - navigation.top
+    - navigation.instant
+    - navigation.expand
     - search.highlight
+    - search.share
     - content.code.copy
+    - content.tabs.link
 
 plugins:
   - search
 
 markdown_extensions:
+
   - admonition
+
+  - pymdownx.details
+
   - pymdownx.superfences
+
   - pymdownx.highlight
+
   - pymdownx.tabbed
+
+  - pymdownx.emoji
+
   - tables
 
-nav:
-  - Home: index.md
+extra:
+  social:
 
-  - Architecture:
-      - Overview: architecture/README.md
+    - icon: fontawesome/brands/github
+      link: https://github.com/xadimousalih
 
-  - Cloud:
-      - Overview: cloud/README.md
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com
 
-  - DDD:
-      - Overview: ddd/README.md
-
-  - API:
-      - Overview: api/README.md
-
-  - Security:
-      - Overview: security/README.md
-
-  - AI:
-      - Overview: ai/README.md
+markdown_extensions:
+  - pymdownx.superfences
