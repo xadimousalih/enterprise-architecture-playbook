@@ -69,6 +69,17 @@ nav:
 
   - AI:
       - Overview: ai/README.md
+
+- Reference Architectures:
+    - Overview: reference-architectures/index.md
+    - API Platform: reference-architectures/api-platform/index.md
+    - Identity Platform: reference-architectures/identity-platform/index.md
+    - Event Platform: reference-architectures/event-platform/index.md
+    - Data Platform: reference-architectures/data-platform/index.md
+    - Observability Platform: reference-architectures/observability-platform/index.md
+    - Developer Platform: reference-architectures/developer-platform/index.md
+    - Cloud Platform: reference-architectures/cloud-platform/index.md
+    - AI Platform: reference-architectures/ai-platform/index.md
 plugins:
   - search
 
