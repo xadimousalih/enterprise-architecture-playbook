@@ -45,6 +45,13 @@ theme:
 nav:
   - Home: index.md
 
+  - Framework:
+      - Overview: framework/index.md
+      - Principles: framework/principles/index.md
+      - Governance: framework/governance/index.md
+      - Capabilities: framework/capabilities/index.md
+      - Reference Architectures: framework/reference-architectures/index.md
+
   - Architecture:
       - Fundamentals: architecture/fundamentals/index.md
 
