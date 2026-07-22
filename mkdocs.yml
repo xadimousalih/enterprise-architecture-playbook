@@ -80,6 +80,32 @@ nav:
     - Developer Platform: reference-architectures/developer-platform/index.md
     - Cloud Platform: reference-architectures/cloud-platform/index.md
     - AI Platform: reference-architectures/ai-platform/index.md
+
+- Architecture Patterns:
+    - Overview: patterns/index.md
+    - API Gateway: patterns/api-gateway/index.md
+    - Backend For Frontend: patterns/backend-for-frontend/index.md
+    - CQRS: patterns/cqrs/index.md
+    - Saga: patterns/saga/index.md
+    - Outbox: patterns/outbox/index.md
+    - Event Sourcing: patterns/event-sourcing/index.md
+    - Circuit Breaker: patterns/circuit-breaker/index.md
+    - Retry: patterns/retry/index.md
+    - Bulkhead: patterns/bulkhead/index.md
+    - Sidecar: patterns/sidecar/index.md
+    - Ambassador: patterns/ambassador/index.md
+    - Database per Service: patterns/database-per-service/index.md
+
+- Architecture Decisions:
+    - Overview: adrs/index.md
+    - ADR Template: adrs/templates/adr-template.md
+    - Accepted: adrs/accepted/index.md
+    - Proposed: adrs/proposed/index.md
+    - Deprecated: adrs/deprecated/index.md
+    - Superseded: adrs/superseded/index.md
+
+
+
 plugins:
   - search
 
