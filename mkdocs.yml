@@ -1,1 +1,46 @@
-site_name: My Docs
+site_name: Enterprise Architecture Playbook
+site_description: Enterprise Architecture & Solution Architecture Knowledge Base
+site_author: Xadim Ousalih
+
+theme:
+  name: material
+  language: en
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - tables
+
+nav:
+  - Home: index.md
+
+  - Architecture:
+      - Overview: architecture/README.md
+
+  - Cloud:
+      - Overview: cloud/README.md
+
+  - DDD:
+      - Overview: ddd/README.md
+
+  - API:
+      - Overview: api/README.md
+
+  - Security:
+      - Overview: security/README.md
+
+  - AI:
+      - Overview: ai/README.md

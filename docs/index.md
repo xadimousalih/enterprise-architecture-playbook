@@ -1,17 +1,49 @@
-# Welcome to MkDocs
+# Enterprise Architecture Playbook
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to the **Enterprise Architecture Playbook**.
 
-## Commands
+This project is an open-source knowledge base for:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Enterprise Architects
+- Solution Architects
+- Cloud Architects
+- Software Architects
+- Technical Leaders
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Vision
+
+Design Better.
+
+Build Smarter.
+
+Govern Wisely.
+
+---
+
+## Domains
+
+- Enterprise Architecture
+- TOGAF
+- DDD
+- Cloud
+- Kubernetes
+- AWS
+- API
+- Event Driven
+- AI
+- Security
+- DevSecOps
+- FinOps
+
+---
+
+## Roadmap
+
+- Enterprise Architecture
+- Cloud Native
+- Reference Architectures
+- AI Architecture
+- Templates
+- Design Authority
