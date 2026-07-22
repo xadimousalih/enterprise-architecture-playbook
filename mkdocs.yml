@@ -42,25 +42,48 @@ theme:
     - search.share
     - content.code.copy
     - content.tabs.link
+nav:
+  - Home: index.md
 
+  - Architecture:
+      - Fundamentals: architecture/fundamentals/index.md
+
+  - Cloud:
+      - Overview: cloud/README.md
+
+  - DDD:
+      - Overview: ddd/README.md
+
+  - API:
+      - Overview: api/README.md
+
+  - Security:
+      - Overview: security/README.md
+
+  - AI:
+      - Overview: ai/README.md
 plugins:
   - search
 
 markdown_extensions:
-
   - admonition
 
   - pymdownx.details
 
-  - pymdownx.superfences
-
   - pymdownx.highlight
 
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
 
   - pymdownx.emoji
 
   - tables
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra:
   social:
@@ -71,5 +94,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com
 
-markdown_extensions:
-  - pymdownx.superfences
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid.js
