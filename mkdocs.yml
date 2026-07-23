@@ -138,6 +138,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com
 
+  generator: false
 extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
   - javascripts/mermaid.js
