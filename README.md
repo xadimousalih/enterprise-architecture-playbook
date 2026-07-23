@@ -235,7 +235,7 @@ See LICENSE for more information.
 
 # 👤 Author
 
-**Xadim Ousalih**
+**xadimouSALIH**
 
 Enterprise Solution Architect
 
